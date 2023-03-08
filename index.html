@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Stackers Game</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="A game that copies the game at Cici's pizza"/>
+    <meta name="keywords" content="mike stepp,stepp,ucsd,javascript,game,cicis,cici,stacker,stackers"/>
+    <script type="text/javascript" src="/script.js"></script> </script>
+    <link href="/game.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript">
+      window.onload = function(e) {
+         var squares = document.getElementById("squares");
+         Stackers.init(squares);
+         return true;
+      };
+    </script>
+  </head>
+  <body>
+    <div id="main">
+      <div id="squares"></div> 
+      <div class="statusbar" id="buttonbar">
+        <input type="button" class="startbutton" id="startbutton" value="Start"/><br/>
+        <span id="status">
+      </div>
+      <div id="windiv"><img src="/assets/png-clipart-brass-colored-trophy-illustration-trophy-euclidean-winner-text-logo (1).png" alt="You win!"/></div>
+      <div id="losediv"><img src="/assets/png-clipart-yellow-loser-text-thumbnail (2).png" alt="You lose!"/></div>
+      <div class="instructions">
+         <span class="heading">Classic Stacker!</span><br/>
+         <span class="intro">
+
+           This is a game to test your reflexes. The bar will go from
+           left to right and back until you press the <span
+           style="font-weight:bold;">spacebar</span> to drop the
+           bar. You want to stack the blocks as high as you can without missing the
+           blocks you stacked from the bottom up. This will get smaller and faster as you go up.
+           The goal of the game is to get up to the gold bar for big prize. This game is so fun
+           to play and will be unblocked in Mr. Mumm's app creations class. For you to start
+           playing just click the start button. If you want to play again press start, or click
+           the refresh button if you want to refresh the whole game.
+
+           Good Luck
+
+
+           <br/><br/>
+         </span>
+      </div>
+    </div>
+
+    <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      _uacct = "UA-2752641-1";
+      urchinTracker();
+    </script>
+  </body>
+</html>
+<footer></footer>
